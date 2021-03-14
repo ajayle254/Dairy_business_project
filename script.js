@@ -30,12 +30,12 @@ while(index < numberOfSheds){
     total_production += sheds[index].numberOfCows * sheds[index].averageProd;
     shed_production = sheds[index].numberOfCows * sheds[index].averageProd;
     if (verbose === true){
-         /* alert("Your production in " + sheds[index].name + " " + shed_production.toString() + " litres per day") ;*/
+          alert("Your production in " + sheds[index].name + " " + shed_production.toString() + " litres per day") ;
     }
     index += 1;
 }
 if(verbose === true){
-    /*alert("The total production is " + total_production.toString() + " litres per day" );*/
+    alert("The total production is " + total_production.toString() + " litres per day" );
 }
 return total_production;
 }
@@ -46,11 +46,11 @@ function incomeOverTime(selling_price, time, verbose){
 dailyIncome = totalProduction() * selling_price;
 return dailyIncome * time;
 }
-/*alert(" ");
+alert(" ");
 alert("Your weekly income will be Ksh " + incomeOverTime(45,7));
 alert("Your yearly income will be Ksh " + incomeOverTime(45,365));
 
-        alert( " ");*/
+        alert( " ");
 
 for (var key in months){
         monthly_income = incomeOverTime(45, months[key]);
