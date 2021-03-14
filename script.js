@@ -1,22 +1,22 @@
 var sheds = [
     {
-        name: "Shed A",
+        name: "cowShed A",
         numberOfCows: 34,
         averageProduction: 15
     },
     {
-        name: "Shed B",
+        name: "cowShed B",
         numberOfCows: 11,
         averageProduction: 28
     },
     {
-        name: "Shed C",
+        name: "cowShed C",
         numberOfCows: 27,
         averageProduction: 18
 
     },
     {
-        name: "Shed D",
+        name: "cowShed D",
         numberOfCows: 52,
         averageProduction: 11
     }
@@ -30,5 +30,4 @@ while(index < numberOfSheds){
     total_production += sheds[index].numberOfCows * sheds[index].averageProd;
     shed_production = sheds[index].numberOfCows * sheds[index].averageProd;
     if (verbose === true){
-
-    }
+    };
