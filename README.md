@@ -2,7 +2,7 @@
 ## Author
 Juma Allan
 ## Description
-Its a website that expalins more about my fev music band 
+Its a website that expalins more about my Dairy business: it shows the daily milk production,the amount of money recieved and the avarage production 
 ### Prerequisites
 You need to have git installed
 You can install it with the following command in your terminal
