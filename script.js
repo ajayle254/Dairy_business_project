@@ -1,8 +1,8 @@
 var sheds = [
     {
         name: "cowShed A",
-        numberOfCows: 34,
-        averageProduction: 15
+        numberOfCows: 15,
+        averageProduction: 34
     },
     {
         name: "cowShed B",
@@ -11,14 +11,14 @@ var sheds = [
     },
     {
         name: "cowShed C",
-        numberOfCows: 27,
-        averageProduction: 18
+        numberOfCows: 18,
+        averageProduction: 27
 
     },
     {
         name: "cowShed D",
-        numberOfCows: 52,
-        averageProduction: 11
+        numberOfCows: 11,
+        averageProduction: 52
     }
 ];
 var numberOfSheds = sheds.length;
