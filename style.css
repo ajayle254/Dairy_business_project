@@ -5,6 +5,8 @@ label{
 p{
     font-style: italic;
     font-family: fantasy;
+    flex-direction: column;
+    
 }
 #footer{
 background-color: aqua;
